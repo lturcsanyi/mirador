@@ -183,6 +183,7 @@ export const problems: Messages["problems"] = {
   appStorageFull: (app, characters, key) => `Ez az alkalmazás (${app}) munkaterületenként ${characters} karaktert tárolhat; ez már nem fér el: ${key}.`,
   fileLeadsOutsideWorkspace: (path) => `Ez a munkaterületen kívülre vezet, ezért a Mirador nem mutatja meg: ${path}`,
   agentDidNotChangeFile: (path) => `Az ágens ebben a beszélgetésben nem módosította ezt: ${path}`,
+  terminalFolderGone: (path) => `Ez a mappa nem létezik, ezért nem nyitható meg benne terminál: ${path}`,
   notAWorkspaceFile: (path) => `Ez nem ennek a munkaterületnek a fájlja: ${path}`,
   notALineNumber: (line) => `Ez nem sorszám: ${line}`,
   fileDoesNotExist: (path) => `Nem létezik: ${path}`,
